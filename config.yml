@@ -1,0 +1,49 @@
+#Função do plugin:
+#Interagir com blocos no mapa sem haver perda de construções permanente
+
+#Comandos:
+#/pdghblocos - Recarrega a configuração do plugin#
+#/pdghblocos Reset - Recoloca TODOS os blocos da lista: "IDBlocosQuebraveis" que foram quebrados no mapa citado na opção: "Mapa"#
+
+#LEIA
+#LEIA
+#LEIA
+#Sujestões: Não use a flag "build" do world guard no mapa da opção "Mapa", o plugin já tem essa opção anti-erros
+#LEIA
+#LEIA
+#LEIA
+
+#Ativa e desativa a função do plugin#
+Ativar: true
+#Nome do mapa onde vai poder ser quebrado#
+Mapa: 'world'
+#Tempo reset de blocos (Levar em consideração o tempo em minutos)
+TempoReset: 20
+
+#Ativa ou desativa verificação do item na mão do jogador#
+PrecisaDeFerramenta: true
+#Caso queira adicionar alguma use - 'ID'
+IDFerramentas:
+- '9357'
+- '9358'
+- '9359'
+- '9360'
+- '9361'
+- '9362'
+- '9363'
+- '9364'
+- '9365'
+- '9366'
+- '9367'
+- '9368'
+- '9369'
+- '9380'
+- '9381'
+- '9382'
+- '9383'
+- '9384'
+
+#Caso queira adicionar algum use - 'ID'
+IDBlocosQuebraveis:
+- '20'
+- '102'

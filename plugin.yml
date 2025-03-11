@@ -1,0 +1,8 @@
+name: PDGHBlocos
+description: Interações com vidro.
+main: me.zbg.PDGHBlocos.Main
+version: 1.0
+author: zbg
+depend: [WorldGuard, Vault]
+commands:
+    pdghblocos:
